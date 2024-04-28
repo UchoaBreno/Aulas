@@ -11,10 +11,10 @@
 */
 
 const preco_Combustivel = 5.79;
-const gm_CombustivelKM = 10;
-let distancia = 100;
+const kmPorLitros = 10;
+let distanciaEmKm = 100;
 
-const litrosConsumidos = distancia / gm_CombustivelKM;
+const litrosConsumidos = distanciaEmKm / kmPorLitros;
 const valorGasto = litrosConsumidos * 5.79;
 
 // toFixed = variavel para decidir as casas decimais
